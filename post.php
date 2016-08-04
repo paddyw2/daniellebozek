@@ -1,6 +1,6 @@
 <?php
     // gather post parameters into variables
-    $receiver = "admin@patrickwithams.com";
+    $receiver = "admin@daniellebozek.com";
     $name = $_POST['name'];
     $email = $_POST['email'];
     $message = $_POST['message'];
