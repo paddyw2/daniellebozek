@@ -10,24 +10,6 @@
     font-family: vegur-regular;
     src: url(fonts/vegur-regular.otf);
 }
-@font-face {
-    font-family: roboto-thin;
-    src: url(fonts/Roboto/Roboto-Thin.ttf);
-}
-@
-@font-face {
-    font-family: roboto-light;
-    src: url(fonts/Roboto/Roboto-Light.ttf);
-}
-@
-@font-face {
-    font-family: roboto-regular;
-    src: url(fonts/Roboto/Roboto-Regular.ttf);
-}
-@font-face {
-    font-family: roboto-bold;
-    src: url(fonts/Roboto/Roboto-Bold.ttf);
-}
 
 .fadeIn {
     opacity: 1;
@@ -207,7 +189,7 @@ a, a:link, a:active, a:hover, a:focus {
 h3 {
     padding: 30px;
     text-align: center;
-    font-family: roboto-light;
+    font-family: 'Roboto', sans-serif;
     font-weight: 100;
     color: #323232;
 }
@@ -268,7 +250,7 @@ input, textarea {
     width: 100%;
     display: block;
     border-radius: 5px;
-    font-family: roboto-light;
+    font-family:'Roboto', sans-serif; 
     font-weight: 100;
     font-size: 16px;
     color: #323232;
@@ -297,7 +279,7 @@ button#submit {
 
 #returnmessage p {
     color: #31d99c; 
-    font-family: roboto-light;
+    font-family:'Roboto', sans-serif; 
     font-weight: 100;
     font-size: 16px;
     text-align: center;
